@@ -62,6 +62,9 @@
 - Test
   - Rspecs are used
   - Models and Controllers specs are added
+  - Shared examples are used. For e.g.:
+    - "spec/models/concern/progress_status_actionable.rb"
+    - "spec/controllers/api/v1/shared_examples/resource_not_foundable_spec.rb"
   - "shoulda-matchers", "factory_bot_rails", "faker", and "simplecov" gems are used to assist in testing.
   - "/elearnio.postman_collection.json" collection is added to the project which can be used to directly import postman collections.
 
